@@ -1,0 +1,90 @@
+/*******Background***https://wallpaperaccess.com/full/6192217.jpg****/
+body{  
+    background: url("https://wallpaperaccess.com/full/6192217.jpg");
+    font-family: 'VALORANT', sans-serif; 
+    margin: 0;
+}
+.body-content{
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+/********Title***********/
+h1{
+    color: rgb(245, 245, 245);
+    text-decoration: underline;
+    padding-left: 20%;
+}
+h1 a{
+    color:#fa4454;
+}
+a:hover{
+    color: #dc3d4b;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+
+/*********Search********/
+nav{
+    background: #062236;
+    text-align: center;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+#nav-content{
+    display: flex !important;
+    justify-content: center !important;
+}
+.search{
+    text-align: right;
+    display: inline-block;
+    margin: 20px auto;
+    padding-left: 10%;
+}
+button{
+    background: #fa4454;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 4%;
+}
+
+/*********Body Content**********/
+section.body-content{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    height: 100%;
+}
+.img{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 5%;
+}
+div img{
+    width: 400px;
+    border: solid rgba(245, 245, 245, 0.87) 3px;
+    margin-top: 70px;
+}
+h2{
+    color: #dc3d4b;
+    margin-top: 100px;
+}
+p,span,h4{
+    color: rgb(245, 245, 245);
+}
+.moveset{
+    text-decoration: underline #fa4454;
+}
+.moveset-img{
+    height: 80px;
+    width: 80px;
+}
+.voiceLine{
+    padding-bottom: 5%;
+}
